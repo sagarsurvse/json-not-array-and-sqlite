@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginTop="5dp"
+    android:padding="8dp"
+    android:background="@drawable/bgg"
+    android:id="@+id/container">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/anime_nameS"
+            android:text="Anime Title"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/anime_nameS"
+            android:text="description"
+            android:id="@+id/descriptionS"/>
+
+
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_below="@+id/descriptionS"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="studio"
+            android:id="@+id/studioS"/>
+
+
+        <Button
+            android:layout_marginTop ="10dp"
+            android:layout_below="@+id/studioS"
+            android:layout_marginLeft ="10dp"
+            android:text="save"
+            android:id="@+id/btnSave"
+            android:background="#4CAF50"
+            android:layout_alignParentLeft="true"
+            android:layout_height="60dp"
+            android:layout_width="70dp"
+            />
+
+        <Button
+            android:id="@+id/btnShow"
+            android:layout_marginTop ="0dp"
+            android:layout_below="@+id/studioS"
+            android:layout_marginRight ="10dp"
+            android:text="show"
+            android:background="#4CAF50"
+            android:layout_alignParentRight="true"
+            android:layout_height="70dp"
+            android:layout_width="70dp"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>
